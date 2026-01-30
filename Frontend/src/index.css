@@ -1,0 +1,164 @@
+/* AddTask.css */
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.Demo {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Demo h2 {
+  text-align: center;
+  color: #6a1b9a;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input[type="file"] {
+  margin-bottom: 1rem;
+}
+
+.submit {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #4a148c;
+}
+.task-table-container {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1000px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+}
+
+.task-table th,
+.task-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #6a1b9a;
+  color: white;
+  font-weight: 600;
+}
+
+.task-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.task-table img {
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.task-table button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.task-table button:first-child {
+  background-color: #1976d2;
+  color: white;
+}
+
+.task-table button:first-child:hover {
+  background-color: #1565c0;
+}
+
+.task-table button:last-child {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.task-table button:last-child:hover {
+  background-color: #c62828;
+}
+
+/* UPDATETASK CSS */
+.update-task-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
